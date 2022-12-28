@@ -1,5 +1,5 @@
 {% set name = "lavue" %}
-{% set version = "2.79.0" %}
+{% set version = "2.80.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lavue-{{ version }}.tar.gz
-  sha256: 022dec1c071c7c788525aad8c0b9d60d15b010787e4fbe5579d6302b3a9d1e79
+  sha256: 4832c4e86f7ae1a5bb161f8dbcea1ba4a6577e2009f866d89c8e669d4dcca0a3
 
 build:
   number: 0
