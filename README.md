@@ -1,11 +1,11 @@
-About lavue
-===========
+About lavue-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lavue-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/lavue-org/lavue
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lavue-feedstock/blob/main/LICENSE.txt)
 
 Summary: Live image viewer application for photon science detectors.
 
