@@ -16,8 +16,9 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.6
+    - pip
+    - setuptools
   run:
     - h5py
     - numpy >1.6.0
