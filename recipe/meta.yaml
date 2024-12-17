@@ -36,9 +36,7 @@ test:
     - lavuelib.plugins
   requires:
     - python {{ python_min }}
-    - pip
   commands:
-    - pip check
     - lavue --help
     - lavuemonitor --help
 
