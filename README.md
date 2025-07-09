@@ -18,7 +18,6 @@ It is supposed to show a live image view from xray-detectors
 at PETRA3 @ desy.de, e.g. Pilatus, Lambda, Eiger, PerkinElmer,
 PCO, LimaCCD, and others.
 
-
 Current build status
 ====================
 
