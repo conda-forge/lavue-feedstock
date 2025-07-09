@@ -57,7 +57,7 @@ about:
     PCO, LimaCCD, and others.
   homepage: https://github.com/lavue-org/lavue
   repository: https://github.com/lavue-org/lavue
-  documentation: https://confluence.desy.de/display/FSEC/LaVue+-+Live+Image+Viewer
+  documentation: https://lavue-org.github.io/lavue/stable/index.html
 
 extra:
   recipe-maintainers:
