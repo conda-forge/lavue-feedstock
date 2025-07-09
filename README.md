@@ -11,7 +11,7 @@ Summary: Live image viewer application for photon science detectors.
 
 Development: https://github.com/lavue-org/lavue
 
-Documentation: https://confluence.desy.de/display/FSEC/LaVue+-+Live+Image+Viewer
+Documentation: https://lavue-org.github.io/lavue/stable/index.html
 
 This is a simple implementation of a live viewer front end.
 It is supposed to show a live image view from xray-detectors
