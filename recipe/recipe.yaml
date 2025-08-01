@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lavue
-  version: "3.4.1"
+  version: "3.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lavue-${{ version }}.tar.gz
-  sha256: d85ab9e51ffeb99a5c4a2023c21f8affd8f8a0662d2febd9f443bcd5833083ce
+  sha256: 1970ae78db74b7712dd1a63725bb80a007ef723bb2a3f6b4ae53755c835b6f34
 
 build:
   number: 0
