@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lavue
-  version: "3.4.1"
+  version: "3.5.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lavue-${{ version }}.tar.gz
-  sha256: d85ab9e51ffeb99a5c4a2023c21f8affd8f8a0662d2febd9f443bcd5833083ce
+  sha256: 945e038ef38ea53451dedf2038de92fa5eaaba9af61300e230f1335468e21799
 
 build:
   number: 0
@@ -38,13 +38,13 @@ tests:
       imports:
         - lavuelib
         - lavuelib.plugins
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-    script:
+      python_version: ["${{ python_min }}.*", "3.*"]
+  - script:
       - lavue --help
       - lavuemonitor --help
+    requirements:
+      run:
+        - python ${{ python_min }}.*
 
 about:
   license: GPL-2.0-or-later
