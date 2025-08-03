@@ -38,13 +38,13 @@ tests:
       imports:
         - lavuelib
         - lavuelib.plugins
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-    script:
+      python_version: ["${{ python_min }}.*", "3.*"]
+  - script:
       - lavue --help
       - lavuemonitor --help
+    requirements:
+      run:
+        - python ${{ python_min }}.*
 
 about:
   license: GPL-2.0-or-later
