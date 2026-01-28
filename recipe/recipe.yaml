@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/89/67/c422a20c65f6edceaa496c7c480472ac4279833c04c00a49901f083b745d/lavue-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lavue-${{ version }}.tar.gz
   sha256: c86cabec51068aa92025159c5ad6bd8a06c437b2443429616660ce301a8ddd75
 
 build:
@@ -23,9 +23,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - h5py
     - numpy >1.6.0
-    - pyqt
     - pyqtgraph >=0.10.0
     - python >=${{ python_min }}
     - pytz
@@ -45,6 +43,7 @@ tests:
     requirements:
       run:
         - python ${{ python_min }}.*
+        - pyqt
 
 about:
   license: GPL-2.0-or-later
